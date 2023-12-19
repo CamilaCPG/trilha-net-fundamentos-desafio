@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioFundamentos</name>
+    </assembly>
+    <members>
+        <member name="T:DesafioFundamentos.Models.Estacionamento">
+            <summary>
+            Classe responsável pela atribuição de valores aos preços e lista iniciais.
+            </summary>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Construtor que atribui valores aos preços iniciais.
+            </summary>
+            <param name="precoInicial"></param>
+            <param name="precoPorHora"></param>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.AdicionarVeiculo">
+            <summary>
+            Método responsável pela adição de veículos em sua lista respectiva.
+            </summary>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.ValidarPlaca(System.String)">
+            <summary>
+            Método de validação simples de uma placa de acordo com os padrão brasileiro.
+            </summary>
+            <param name="placa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.RemoverVeiculo">
+            <summary>
+            Método de remoção de um veículo.
+            </summary>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.ValorTotal(System.Int32)">
+            <summary>
+            Método privado responsável pela equação do valor total do estacionamento.
+            </summary>
+            <param name="horas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioFundamentos.Models.Estacionamento.ListarVeiculos">
+            <summary>
+            Método responsável pela amostra dos itens na lista de veículos.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <DocumentationFile>bin$(Configuration)$(TargetFramework)$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
