@@ -51,9 +51,8 @@
                                                             mensagemErro += "Placa inválida;";
 
                                                         if(ValidarLista(placa) && adicionar || !ValidarLista(placa) && !adicionar)
-                                                        {
                                                             mensagemErro += $"Placa {validaTexto} adicionada anteriormente;";
-                                                        }                                                       
+
                                                         mensagemErro  = mensagemErro + " Digite novamente: ";
                                                         Console.WriteLine(mensagemErro);
                                                         }
